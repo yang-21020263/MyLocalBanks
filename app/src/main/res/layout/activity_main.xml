@@ -13,14 +13,22 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
+        android:gravity="center"
         android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/DBSlogo"
+            android:layout_width="153dp"
+            android:layout_height="120dp"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/dbs_logo_1968_removebg_preview" />
 
         <TextView
             android:id="@+id/bank1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/border"
-            android:gravity="center"
+            android:gravity="center|center_vertical"
             android:text="@string/dbs"
             android:textColor="@color/black"
             android:textSize="34sp"
@@ -39,7 +47,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
+        android:gravity="center"
         android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/OCBClogo"
+            android:layout_width="153dp"
+            android:layout_height="120dp"
+            app:srcCompat="@drawable/png_transparent_ocbc_bank_singapore_mobile_banking_online_banking_bank_logo_insurance_online_banking_thumbnail_removebg_preview" />
 
         <TextView
             android:id="@+id/bank2"
@@ -65,7 +80,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
+        android:gravity="center"
         android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/UOBlogo"
+            android:layout_width="156dp"
+            android:layout_height="120dp"
+            app:srcCompat="@drawable/uob_logo_1972" />
 
         <TextView
             android:id="@+id/bank3"
